@@ -17,14 +17,5 @@ namespace WishList.Controllers
             return View("Index");
         }
 
-        public IActionResult Create()
-        {
-            return View("Create");
-        }
-
-        public IActionResult Delete(int id)
-        {
-
-        }
     }
 }
